@@ -105,6 +105,7 @@
 }
 
 .paragraph{
+    border: 0px dashed yellow;
     position: static;
     width: 100%;
     background: black;
@@ -121,7 +122,14 @@
 
 .training{
     display: flex;
-    align-items: center; 
+    align-items: center;
+    justify-content: space-evenly; 
+    border: 0px solid blue;
+}
+
+.zeiten{
+    width: 45%;
+    border: 0px solid red;
 }
 
 .zeiten h3{
@@ -132,7 +140,7 @@
 .zeiten p{
     color: white;
     padding-top: 5px;
-    margin-left: 15px;
+    margin-left: 25px;
     font-size: 15px;
 }
 
@@ -212,4 +220,66 @@
     background: #1877F2;
     width: 100%;
     cursor: pointer;
+}
+
+
+/*BEGINN KONTAKT.HTML*/
+
+.kontakt{
+    position: relative;
+    width: 75%;
+    margin: auto;
+    height: 80vh;
+    border: 0px dashed white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kontakt_bild{
+    border: 0px dotted yellow;
+    
+    height: 60vh;
+    width: 50%;
+}
+
+.kontakt_text{
+    border: 0px dotted yellow;
+    width: 50%;
+    height: 50vh;
+    color: white;
+}
+
+.kontakt_text .kontakt_h2{
+    display: grid;
+    text-align: center;
+    text-decoration: underline;
+    margin: 25px;
+}
+
+.kontakt_text .kontakt_h3{
+    margin: 25px;
+}
+
+.kontakt_text .kontakt_p{
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+
+/*BEGINN TRAINING.HTML*/
+
+.navbar_upage{
+    background: black;
+}
+
+.paragraph_upage h2{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    padding: 15px;
+}
+
+.paragraph_upage p{
+    margin-left: 25px;
 }
